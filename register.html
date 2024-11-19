@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Impact College</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Impact College</h1>
+        <div class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section class="register">
+            <h2>Register for a Course</h2>
+            <form>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="course">Select Course:</label>
+                <select id="course" name="course">
+                    <option value="bca">BCA (Bachelor of Computer Applications)</option>
+                    <option value="bba">BBA (Bachelor of Business Administration)</option>
+                    <option value="mca">MCA (Master of Computer Applications)</option>
+                    <option value="mba">MBA (Master of Business Administration)</option>
+                </select>
+
+                <input type="submit" value="Register">
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
